@@ -1,0 +1,49 @@
+.pricing-container{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    list-style-type: none;
+    flex-direction: row;
+}
+.pricing{
+    flex-basis: 300px;
+     background-color: rgb(241, 241, 245);
+     border-radius: 10px;
+     margin-right: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+button{
+    background-color: orange;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: blueviolet;
+}
+.premium{
+
+}
+
+@media screen and (max-width:700px){
+    .pricing-container{
+        flex-direction: column;
+        gap: 30px;
+
+    }
+    .pricing{
+    
+        
+    }
+    
+}
+
+    
+
+    
+    
+
